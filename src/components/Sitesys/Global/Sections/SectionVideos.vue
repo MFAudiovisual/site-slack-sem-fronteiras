@@ -51,37 +51,37 @@ const GalleryImgs = [
     id: '1',
     title: '',
     description: '',
-    videoId: 'JQlNFEbX5YQ',
+    videoId: 'Psll_OCea1w',
   },
   {
     id: '2',
     title: '',
     description: '',
-    videoId: 'JQlNFEbX5YQ',
+    videoId: 'ZP6_obwA3SQ',
   },
   {
     id: '3',
     title: '',
     description: '',
-    videoId: 'JQlNFEbX5YQ',
+    videoId: 'VTy71K7sPaA',
   },
   {
     id: '4',
     title: '',
     description: '',
-    videoId: 'JQlNFEbX5YQ',
+    videoId: '8jI4uOdp318',
   },
   {
     id: '5',
     title: '',
     description: '',
-    videoId: 'JQlNFEbX5YQ',
+    videoId: 'ecy2JuzOZvI',
   },
   {
     id: '6',
     title: '',
     description: '',
-    videoId: 'JQlNFEbX5YQ',
+    videoId: 'XbMGzToJ5Qc',
   },
 ]
 </script>

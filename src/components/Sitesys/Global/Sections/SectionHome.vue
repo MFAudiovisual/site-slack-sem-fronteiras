@@ -1,6 +1,6 @@
 <template>
   <section id="home" class="home">
-    <SliderHero size="76vh" :sliders="sliderImg" />
+    <SliderHero size="72vh" :sliders="sliderImg" />
   </section>
 </template>
 
@@ -15,15 +15,15 @@ import imgUrl4 from '@/assets/images/sitesys/sliders/hero-04.jpg'
 const sliderImg = [
   {
     id: '1',
-    title: 'Title 1',
-    description: 'Lorem ipsum dolor sit amet adipisicing elit.',
-    actionLabel: 'Get Started',
+    title: '',
+    description: '',
+    actionLabel: '',
     actionUrl: '/',
     image: imgUrl1,
   },
   {
     id: '2',
-    title: 'Title 2',
+    title: '',
     description: '',
     actionLabel: '',
     actionUrl: '/',
@@ -32,7 +32,7 @@ const sliderImg = [
   {
     id: '3',
     title: '',
-    description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
+    description: '',
     actionLabel: '',
     actionUrl: '/',
     image: imgUrl3,

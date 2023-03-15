@@ -4,7 +4,7 @@
     <nav class="fixed top-0 z-50 w-full">
       <div
         :class="[y >= 120 ? 'shadow' : 'bg-opacity-0 pt-6']"
-        class="bg-brand px-4 pt-3 pb-2 transition-all duration-300"
+        class="bg-brand-700 px-4 pt-3 pb-2 transition-all duration-300"
       >
         <div class="container mx-auto">
           <!-- Navbar Desktop Content -->
@@ -137,9 +137,10 @@ const handleCloseNavbar = () => {
 
 const navigation = ref([
   { name: 'Home', href: 'home', current: false },
-  { name: 'About', href: 'about', current: false },
-  { name: 'Photos', href: 'photos', current: false },
-  { name: 'Videos', href: 'videos', current: false },
-  { name: 'Contact', href: 'contact', current: false },
+  { name: 'Sobre', href: 'about', current: false },
+  { name: 'Fotos', href: 'photos', current: false },
+  { name: 'Vídeos', href: 'videos', current: false },
+  { name: 'Serviços', href: 'services', current: false },
+  { name: 'Contatos', href: 'contact', current: false },
 ])
 </script>
