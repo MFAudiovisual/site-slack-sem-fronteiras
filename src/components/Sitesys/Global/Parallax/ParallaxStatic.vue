@@ -20,7 +20,7 @@
 </template>
 
 <script setup>
-import imgUrl from '@/assets/images/sitesys/parallax/parallax-01.png'
+import imgUrl from '@/assets/images/sitesys/parallax/parallax-01.jpg'
 
 defineProps({
   image: {
