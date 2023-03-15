@@ -170,18 +170,18 @@
         <!-- Contact -->
         <div class="w-full px-4 sm:w-1/2 lg:w-4/12">
           <div class="mb-10 w-full">
-            <h4 class="text-gray-300 mb-4 text-lg font-semibold">Contact</h4>
+            <h4 class="text-gray-300 mb-4 text-lg font-semibold">Contatos</h4>
             <ul>
               <li>
                 <p
-                  class="text-gray-400 font-semibold hover:text-primary inline-block text-base leading-loose"
+                  class="text-gray-400 font-semibold hover:text-primary inline-block text-sm leading-loose"
                 >
                   {{ company.email1 }}
                 </p>
               </li>
               <li>
                 <p
-                  class="text-gray-400 font-semibold hover:text-primary inline-block text-base leading-loose"
+                  class="text-gray-400 font-semibold hover:text-primary inline-block text-sm leading-loose"
                 >
                   {{ company.email2 }}
                 </p>
@@ -192,25 +192,25 @@
         <!-- Address -->
         <div class="w-full px-4 sm:w-1/2 lg:w-4/12">
           <div class="mb-10 w-full">
-            <h4 class="text-gray-300 mb-4 text-lg font-semibold">Address</h4>
+            <h4 class="text-gray-300 mb-4 text-lg font-semibold">Local</h4>
             <ul>
               <li>
                 <p
-                  class="text-gray-400 font-semibold hover:text-primary inline-block text-base leading-loose"
+                  class="text-gray-400 font-semibold hover:text-primary inline-block text-sm leading-loose"
                 >
                   {{ company.address }}
                 </p>
               </li>
               <li>
                 <p
-                  class="text-gray-400 font-semibold hover:text-primary inline-block text-base leading-loose"
+                  class="text-gray-400 font-semibold hover:text-primary inline-block text-sm leading-loose"
                 >
                   {{ company.phone1 }}
                 </p>
               </li>
               <li>
                 <p
-                  class="text-gray-400 font-semibold hover:text-primary inline-block text-base leading-loose"
+                  class="text-gray-400 font-semibold hover:text-primary inline-block text-sm leading-loose"
                 >
                   {{ company.phone2 }}
                 </p>
@@ -220,10 +220,10 @@
         </div>
       </div>
     </div>
-    <div class="flex justify-center mt-12">
-      <p class="text-sm text-gray-400">
-        All rights reserved by @
-        <span class="font-bold">{{ company.company }}</span> 2023
+    <div class="flex justify-center mt-12 mx-4">
+      <p class="text-gray-400">
+        All rights reserved by
+        <span class="font-bold">@{{ company.company }}</span> 2023.
       </p>
     </div>
   </footer>
@@ -235,7 +235,7 @@ import imgUrl from '@/assets/images/sitesys/logo/logo-header-light.png'
 const company = defineProps({
   company: {
     type: String,
-    default: 'SiteSys',
+    default: 'Slack Sem Fronteiras',
   },
   logo: {
     type: String,
@@ -243,39 +243,39 @@ const company = defineProps({
   },
   description: {
     type: String,
-    default: 'Brief description of the company.',
+    default: '',
   },
   email1: {
     type: String,
-    default: 'contactsitesys@sitesys.com',
+    default: 'slacksemfronteiras@gmail.com',
   },
   email2: {
     type: String,
-    default: 'supportsitesys@sitesys.com',
+    default: 'slacksemfronteiras@gmail.com',
   },
   address: {
     type: String,
-    default: 'Company Address, 0000 - Company District',
+    default: 'Porto Alegre / RS - Brasil',
   },
   phone1: {
     type: String,
-    default: '99 99999-9999',
+    default: '(51) 99142-3697',
   },
   phone2: {
     type: String,
-    default: '88 88888-8888',
+    default: '(51) 98669-1799',
   },
   facebook: {
     type: String,
-    default: 'https://www.facebook.com/',
+    default: 'https://www.facebook.com/slacksemfronteiras/',
   },
   instagram: {
     type: String,
-    default: 'https://www.instagram.com/',
+    default: 'https://www.instagram.com/slacksemfronteiras/',
   },
   youtube: {
     type: String,
-    default: 'https://www.youtube.com/',
+    default: 'https://www.youtube.com/@SlacksemFronteiras',
   },
 })
 </script>

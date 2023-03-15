@@ -3,15 +3,16 @@
     <SitesysNavbar />
     <SectionHome />
     <SectionAbout />
-    <ParallaxMulti :sliders="sliderImg" size="52vh" />
+    <ParallaxMulti :sliders="sliderImg" size="84vh" />
     <SectionPhotos />
     <SliderImage
-      size="50vh"
-      :sliders="sliderImg"
+      size="72vh"
+      :sliders="sliderImg1"
       background-color="#0000001a"
     />
     <SectionVideos />
     <ParallaxStatic :image="imageUrl2" />
+    <SectionServices />
     <SectionContact />
     <ScrollToTop />
     <SitesysFooter />
@@ -26,6 +27,7 @@ import SectionHome from '@/components/Sitesys/Global/Sections/SectionHome.vue'
 import SectionAbout from '@/components/Sitesys/Global/Sections/SectionAbout.vue'
 import SectionPhotos from '@/components/Sitesys/Global/Sections/SectionPhotos.vue'
 import SectionVideos from '@/components/Sitesys/Global/Sections/SectionVideos.vue'
+import SectionServices from '@/components/Sitesys/Global/Sections/SectionServices.vue'
 import SectionContact from '@/components/Sitesys/Global/Sections/SectionContact.vue'
 import ParallaxStatic from '@/components/Sitesys/Global/Parallax/ParallaxStatic.vue'
 import ParallaxMulti from '@/components/Sitesys/Global/Parallax/ParallaxMulti.vue'
@@ -42,7 +44,7 @@ import imageUrl2 from '@/assets/images/sitesys/parallax/parallax-02.jpg'
 const sliderImg = [
   {
     id: '1',
-    title: '',
+    title: 'O que se aprende ao praticar SLACKLINE?',
     description: '',
     actionLabel: '',
     actionUrl: '/',
@@ -50,25 +52,28 @@ const sliderImg = [
   },
   {
     id: '2',
-    title: 'Title 2',
-    description: '',
+    title: '',
+    description: 'DIVERSÃO, EQUILÍBRIO, CONEXÃO...',
     actionLabel: '',
     actionUrl: '/',
     image: imgUrl2,
   },
+]
+
+const sliderImg1 = [
   {
-    id: '3',
-    title: 'Title 3',
-    description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
+    id: '1',
+    title: '',
+    description: '',
     actionLabel: '',
     actionUrl: '/',
     image: imgUrl3,
   },
   {
-    id: '4',
-    title: 'Title 4',
-    description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
-    actionLabel: 'Get Started',
+    id: '2',
+    title: '',
+    description: '',
+    actionLabel: '',
     actionUrl: '/',
     image: imgUrl4,
   },
